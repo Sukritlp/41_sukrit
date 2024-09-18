@@ -1,0 +1,13 @@
+docker -v
+docker ps
+docker ps --all
+docker run hello-world
+docker run -d -p 8000:80 nginx
+docker images
+docker image rm hello-world
+docker run busybox ping google
+docker system df
+docker exec -it 026c12a24598 sh
+docker exec -it 026c12a24598 bash
+docker exec -it 026c12a24598 ls
+docker ls
